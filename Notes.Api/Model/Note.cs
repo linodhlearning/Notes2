@@ -13,5 +13,7 @@
         public string Title { get; set; }
         public string Description { get; set; }
         public NoteTypes NoteType { get; set; }
+
+        public string AdditionalNotes { get; set; }
     }
 }
